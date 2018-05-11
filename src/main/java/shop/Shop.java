@@ -19,4 +19,7 @@ public class Shop {
     public int numberOfItemsInStock(){
         return stock.size();
     }
+    public void addItem(Isell item){
+        stock.add(item);
+    }
 }
