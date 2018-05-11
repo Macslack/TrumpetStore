@@ -22,4 +22,7 @@ public class Shop {
     public void addItem(Isell item){
         stock.add(item);
     }
+    public void removeItem(Isell item){
+        stock.remove(item);
+    }
 }

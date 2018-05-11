@@ -23,8 +23,14 @@ public class ShopTest {
         assertEquals(0, shop.numberOfItemsInStock());
     }
     @Test
-    public void canAddIte(){
+    public void canAddItem(){
             shop.addItem(guitar);
         assertEquals(1,shop.numberOfItemsInStock());
+    }
+    @Test
+    public void canRemoveItem(){
+        shop.addItem(guitar);
+        shop.removeItem(guitar);
+        assertEquals(0, shop.numberOfItemsInStock());
     }
 }
