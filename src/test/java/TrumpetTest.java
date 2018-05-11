@@ -28,6 +28,10 @@ public class TrumpetTest {
     public void canPlay(){
         assertEquals("toot toot", trumpet.play());
     }
+    @Test
+    public void canGetMarkup(){
+        assertEquals(100.00, trumpet.calculateMarkup(),0.01);
+    }
 
 }
 
