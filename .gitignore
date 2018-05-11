@@ -35,6 +35,4 @@
 out/
 target/
 .idea_modules/
-src/main/java/accessories/
-src/main/resources/
-src/test/resources/
+
