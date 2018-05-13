@@ -1,6 +1,7 @@
 import instuments.Guitar;
 import org.junit.Before;
 import org.junit.Test;
+import shop.InstumentType;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +10,7 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar(100.00, 200.00, 5);
+        guitar = new Guitar(100.00, 200.00, InstumentType.STRINGS, 5);
     }
     @Test
     public void canGetMarkUp(){

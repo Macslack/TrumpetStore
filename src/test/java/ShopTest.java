@@ -1,6 +1,7 @@
 import instuments.Guitar;
 import org.junit.Before;
 import org.junit.Test;
+import shop.InstumentType;
 import shop.Shop;
 
 import static org.junit.Assert.assertEquals;
@@ -12,7 +13,7 @@ public class ShopTest {
     @Before
     public void before(){
         shop = new Shop("Test Shop");
-        guitar = new Guitar(100.00, 200.00, 6);
+        guitar = new Guitar(100.00, 200.00, InstumentType.STRINGS, 5);
     }
     @Test
     public void canGetShopName(){

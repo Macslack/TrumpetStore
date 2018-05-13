@@ -1,6 +1,7 @@
 import instuments.Trumpet;
 import org.junit.Before;
 import org.junit.Test;
+import shop.InstumentType;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,7 +11,7 @@ public class TrumpetTest {
 
     @Before
     public void before(){
-        trumpet = new Trumpet(100.00, 200.00, 5);
+        trumpet = new Trumpet(100.00, 200.00, InstumentType.BRASS, 5);
     }
     @Test
     public void canGetBuyPrice(){
