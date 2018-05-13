@@ -1,4 +1,5 @@
 import instuments.Guitar;
+import instuments.Trumpet;
 import org.junit.Before;
 import org.junit.Test;
 import shop.InstumentType;
@@ -9,11 +10,13 @@ import static org.junit.Assert.assertEquals;
 public class ShopTest {
     Shop shop;
     Guitar guitar;
+    Trumpet trumpet;
 
     @Before
     public void before(){
         shop = new Shop("Test Shop");
         guitar = new Guitar(100.00, 200.00, InstumentType.STRINGS, 5);
+        trumpet = new Trumpet(100.00, 150.00, InstumentType.BRASS, 5);
     }
     @Test
     public void canGetShopName(){
@@ -40,6 +43,15 @@ public class ShopTest {
         shop.addItem(guitar);
         shop.addItem(guitar);
         assertEquals(300.00, shop.totalPotentialProfit(),0.01);
+   }
+   @Test
+    public void canGetLowestPriceItem(){
+        shop.addItem(guitar);
+        shop.addItem(guitar);
+        shop.addItem(trumpet);
+        shop.addItem(trumpet);
+        assertEquals(trumpet, shop.getLowestPriceItem());
+
    }
 
 }

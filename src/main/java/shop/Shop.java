@@ -47,4 +47,14 @@ public class Shop {
 
 
     }
+    public Sellable getLowestPriceItem(){
+        Sellable lowestItem = stock.get(0);
+
+        for ( Sellable checkingItem : stock){
+            if (checkingItem.getSellPrice() < lowestItem.getSellPrice()){
+                lowestItem = checkingItem;
+            }
+        }
+        return lowestItem;
+    }
 }
