@@ -40,4 +40,5 @@ public class ShopTest {
         shop.addItem(guitar);
         assertEquals(300.00, shop.totalPotentialProfit(),0.01);
    }
+
 }
