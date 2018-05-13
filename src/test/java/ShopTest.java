@@ -53,5 +53,12 @@ public class ShopTest {
         assertEquals(trumpet, shop.getLowestPriceItem());
 
    }
+   @Test
+    public void canGetHighestPriceItem(){
+       shop.addItem(guitar);
+       shop.addItem(trumpet);
+       assertEquals(guitar, shop.getHighestPriceItem());
+
+   }
 
 }

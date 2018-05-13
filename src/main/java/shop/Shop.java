@@ -57,4 +57,14 @@ public class Shop {
         }
         return lowestItem;
     }
+    public Sellable getHighestPriceItem(){
+        Sellable highestItem = stock.get(0);
+
+        for (Sellable checkingItem : stock){
+            if (checkingItem.getSellPrice() > highestItem.getSellPrice()){
+                highestItem = checkingItem;
+            }
+        }
+        return highestItem;
+    }
 }
