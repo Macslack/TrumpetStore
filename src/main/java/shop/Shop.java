@@ -77,4 +77,15 @@ public class Shop {
         }
         return mostProfit;
     }
+    public double getFlatTax(){
+        double runningTax = 0.00;
+
+       for(Sellable item : stock){
+           runningTax += item.calculateMarkup();
+       }
+       runningTax /= 100;
+       runningTax *= 17;
+
+       return runningTax;
+    }
 }

@@ -67,4 +67,11 @@ public class ShopTest {
        assertEquals(guitar, shop.getMostProfitableItem());
    }
 
+   @Test
+    public void canGetFlatTax(){
+       shop.addItem(guitar);
+       shop.addItem(trumpet);
+       assertEquals(25.5, shop.getFlatTax(),0.01);
+
+   }
 }
