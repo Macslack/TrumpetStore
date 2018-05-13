@@ -84,8 +84,8 @@
       <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#539#540#0" expanded="true" />
@@ -100,8 +100,8 @@
       <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/shop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="452">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
@@ -646,7 +646,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canGetHighestPriceItem">
+  <component name="RunManager" selected="JUnit.ShopTest.canGetMostProfitableItem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -676,26 +676,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SheetMusicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MusicStore_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -755,6 +735,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShopTest" />
       <option name="METHOD_NAME" value="canGetLowestPriceItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ShopTest.canGetMostProfitableItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MusicStore_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canGetMostProfitableItem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -828,19 +828,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SheetMusicTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in MusicStore_test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetLowestPriceItem" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetHighestPriceItem" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in MusicStore_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetLowestPriceItem" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetHighestPriceItem" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetMostProfitableItem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetHighestPriceItem" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetLowestPriceItem" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in MusicStore_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SheetMusicTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetMostProfitableItem" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetHighestPriceItem" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetLowestPriceItem" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in MusicStore_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest" />
       </list>
     </recent_temporary>
   </component>
@@ -867,9 +867,6 @@
     <history-entry file="All_in_MusicStore_test - 2018.05.13 at 11h 47m 54s.xml">
       <configuration name="All in MusicStore_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest - 2018.05.11 at 12h 49m 29s.xml">
-      <configuration name="ShopTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShopTest - 2018.05.11 at 12h 57m 11s.xml">
       <configuration name="ShopTest" configurationId="JUnit" />
     </history-entry>
@@ -881,6 +878,9 @@
     </history-entry>
     <history-entry file="ShopTest - 2018.05.12 at 13h 35m 56s.xml">
       <configuration name="ShopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopTest_canGetHighestPriceItem - 2018.05.13 at 12h 13m 33s.xml">
+      <configuration name="ShopTest.canGetHighestPriceItem" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShopTest_canGetLowestPriceItem - 2018.05.13 at 12h 06m 36s.xml">
       <configuration name="ShopTest.canGetLowestPriceItem" configurationId="JUnit" />
@@ -1151,8 +1151,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shop/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
@@ -1169,8 +1169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />

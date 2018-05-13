@@ -67,4 +67,14 @@ public class Shop {
         }
         return highestItem;
     }
+    public Sellable getMostProfitableItem(){
+        Sellable mostProfit = stock.get(0);
+
+        for (Sellable checkingItem : stock){
+            if (checkingItem.calculateMarkup() > mostProfit.calculateMarkup()){
+                mostProfit = checkingItem;
+            }
+        }
+        return mostProfit;
+    }
 }
